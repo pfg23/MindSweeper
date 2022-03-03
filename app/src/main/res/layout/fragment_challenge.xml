@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE57F"
+    android:padding="20dp"
+    tools:context=".ChallengeFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:fontFamily="@font/aclonica"
+        android:text="Mind Sweeper"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/purple_500"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile00"
+                android:contentDescription="Tile 0, 0"
+                android:tag="0, 0"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile01"
+                android:contentDescription="Tile 0, 1"
+                android:tag="0, 1"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile02"
+                android:contentDescription="Tile 0, 2"
+                android:tag="0, 2"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile03"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile04"
+                android:contentDescription="Tile 0, 4"
+                android:tag="0, 4"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile05"
+                android:contentDescription="Tile 0, 5"
+                android:tag="0, 5"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile10"
+                android:contentDescription="Tile 1, 0"
+                android:tag="1, 0"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile11"
+                android:contentDescription="Tile 1, 1"
+                android:tag="1, 1"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile12"
+                android:contentDescription="Tile 1, 2"
+                android:tag="1, 2"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile13"
+                android:contentDescription="Tile 1, 3"
+                android:tag="1, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile14"
+                android:contentDescription="Tile 1, 4"
+                android:tag="1, 4"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile15"
+                android:contentDescription="Tile 1, 5"
+                android:tag="1, 5"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile20"
+                android:contentDescription="Tile 2, 0"
+                android:tag="2, 0"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile21"
+                android:contentDescription="Tile 2, 1"
+                android:tag="2, 1"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile22"
+                android:contentDescription="Tile 2, 2"
+                android:tag="2, 2"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile23"
+                android:contentDescription="Tile 2, 3"
+                android:tag="2, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile24"
+                android:contentDescription="Tile 2, 4"
+                android:tag="2, 4"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile25"
+                android:contentDescription="Tile 2, 5"
+                android:tag="2, 5"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile30"
+                android:contentDescription="Tile 3, 0"
+                android:tag="3, 0"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile31"
+                android:contentDescription="Tile 3, 1"
+                android:tag="3, 1"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile32"
+                android:contentDescription="Tile 3, 2"
+                android:tag="3, 2"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile33"
+                android:contentDescription="Tile 3, 3"
+                android:tag="3, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile34"
+                android:contentDescription="Tile 3, 4"
+                android:tag="3, 4"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile35"
+                android:contentDescription="Tile 3, 5"
+                android:tag="3, 5"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile40"
+                android:contentDescription="Tile 4, 0"
+                android:tag="4, 0"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile41"
+                android:contentDescription="Tile 4, 1"
+                android:tag="4, 1"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile42"
+                android:contentDescription="Tile 4, 2"
+                android:tag="4, 2"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile43"
+                android:contentDescription="Tile 4, 3"
+                android:tag="4, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile44"
+                android:contentDescription="Tile 4, 4"
+                android:tag="4, 4"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile45"
+                android:contentDescription="Tile 4, 5"
+                android:tag="4, 5"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tile50"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile51"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile52"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile53"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile54"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+            <ImageView
+                android:id="@+id/tile55"
+                android:contentDescription="Tile 0, 3"
+                android:tag="0, 3"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

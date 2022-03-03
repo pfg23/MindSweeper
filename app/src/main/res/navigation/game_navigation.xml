@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mindsweeper.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_easyFragment"
+            app:destination="@id/easyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_challengeFragment"
+            app:destination="@id/challengeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hardFragment"
+            app:destination="@id/hardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/easyFragment"
+        android:name="com.example.mindsweeper.EasyFragment"
+        android:label="Easy"
+        tools:layout="@layout/fragment_easy" />
+    <fragment
+        android:id="@+id/challengeFragment"
+        android:name="com.example.mindsweeper.ChallengeFragment"
+        android:label="Challenging"
+        tools:layout="@layout/fragment_challenge" />
+    <fragment
+        android:id="@+id/hardFragment"
+        android:name="com.example.mindsweeper.HardFragment"
+        android:label="Hard"
+        tools:layout="@layout/fragment_hard" />
+</navigation>
