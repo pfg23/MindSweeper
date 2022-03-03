@@ -1,2 +1,2 @@
 # MindSweeper
-A clone of thegame Microsoft Mine Sweeper.
+A clone of the game Microsoft Mine Sweeper.
